@@ -1,0 +1,81 @@
+Hier is een gedetailleide stap-voor-stap uitleg over hoe je tabellen, queries, formulieren en rapporten kunt maken in Microsoft Access.
+
+1. Tabellen Maken
+Tabellen zijn de ruggengraat van je database. Hier sla je je gegevens op.
+Stap 1: Een nieuwe tabel maken
+	1.	Open Microsoft Access en maak een nieuwe database of open een bestaande database.
+	2.	Klik op het tabblad "Maken" in het lint.
+	3.	Klik op "Tabel".
+Stap 2: Velden toevoegen
+	1.	Klik op de eerste kolom met de naam "Klik om toe te voegen".
+	2.	Kies een gegevenstype, zoals:
+	◦	Tekst Kort (voor namen, beschrijvingen).
+	◦	Getal (voor cijfers, zoals prijzen of hoeveelheden).
+	◦	Datum/Tijd (voor datums en tijden).
+	3.	Geef het veld een naam door dubbel te klikken op de standaardnaam (bijv. "Veld1") en een nieuwe naam in te voeren (bijv. "Klantnaam").
+Stap 3: Instellen van een primaire sleutel
+	1.	Selecteer het veld dat unieke waarden moet hebben (bijvoorbeeld "Klant-ID").
+	2.	Klik op "Primaire Sleutel" in het tabblad "Tabelontwerp".
+Stap 4: Opslaan
+	1.	Druk op Ctrl+S of klik op de knop Opslaan.
+	2.	Geef de tabel een naam (bijv. "Klanten").
+
+2. Queries Maken
+Queries zijn filters of vragen die specifieke gegevens uit de tabellen ophalen.
+Stap 1: Een nieuwe query maken
+	1.	Klik op het tabblad "Maken".
+	2.	Selecteer "Querywizard" voor een begeleide aanpak, of klik op "Queryontwerp" voor meer controle.
+Stap 2: Tabellen toevoegen aan de query
+	1.	Selecteer de tabellen waaruit je gegevens wilt ophalen.
+	2.	Klik op "Toevoegen" en sluit het venster.
+Stap 3: Velden selecteren
+	1.	Dubbelklik op de velden die je in je query wilt opnemen (bijvoorbeeld "Klantnaam" en "Stad").
+	2.	Ze verschijnen in de onderste vensters van de Queryontwerper.
+Stap 4: Criteria toevoegen
+	1.	In de rij "Criteria" kun je voorwaarden instellen, zoals:
+	◦	Voor een specifieke stad: typ "Amsterdam".
+	◦	Voor waarden groter dan 100: typ >100.
+Stap 5: Uitvoeren
+	1.	Klik op "Uitvoeren" (het rode uitroepteken in het tabblad "Ontwerp").
+	2.	Bekijk de resultaten.
+
+3. Formulieren Maken
+Formulieren bieden een visuele interface om gegevens in te voeren of te bekijken.
+Stap 1: Een formulier maken
+	1.	Klik op het tabblad "Maken".
+	2.	Selecteer een van de volgende opties:
+	◦	"Formulier": Een snel formulier op basis van een geselecteerde tabel of query.
+	◦	"Formulierontwerp": Voor volledige controle over de lay-out.
+	◦	"Leeg formulier": Begin helemaal vanaf nul.
+Stap 2: Velden toevoegen
+	1.	Klik op "Formulierontwerp".
+	2.	Open het venster "Velden toevoegen" via het tabblad "Ontwerp".
+	3.	Sleep velden uit de lijst naar het formulier.
+Stap 3: Aanpassen
+	1.	Pas het formulier aan door knoppen, tekstvakken of keuzelijsten toe te voegen vanuit het tabblad "Ontwerp".
+	2.	Gebruik het "Eigenschappenvak" om de opmaak en functies van elk element aan te passen.
+Stap 4: Opslaan
+	1.	Druk op Ctrl+S en geef het formulier een naam.
+
+4. Rapporten Maken
+Rapporten worden gebruikt om gegevens overzichtelijk te presenteren, vaak voor afdrukken of exporteren.
+Stap 1: Een rapport maken
+	1.	Klik op het tabblad "Maken".
+	2.	Selecteer:
+	◦	"Rapport": Automatisch rapport op basis van een geselecteerde tabel of query.
+	◦	"Rapportontwerp": Voor volledige controle over de lay-out.
+Stap 2: Velden toevoegen
+	1.	Klik op "Ontwerp" en open "Velden toevoegen".
+	2.	Sleep velden naar het rapport.
+Stap 3: Lay-out aanpassen
+	1.	Gebruik het tabblad "Ontwerp" om kopteksten, voetteksten en andere decoratieve elementen toe te voegen.
+	2.	Pas het lettertype, de kleuren en de indeling aan.
+Stap 4: Voorbeeld bekijken en opslaan
+	1.	Klik op "Afdrukvoorbeeld" om te zien hoe het rapport eruitziet.
+	2.	Sla het rapport op met Ctrl+S.
+
+Extra Tips
+	•	Relaties instellen: Gebruik het tabblad "Databasehulpmiddelen" en selecteer "Relaties" om verbanden tussen tabellen te definiëren.
+	•	Automatisering: Gebruik macro’s of VBA-code voor repetitieve taken.
+	•	Back-ups maken: Zorg altijd voor een reservekopie van je database.
+Met deze stappen kun je een volledig functionele database bouwen in Microsoft Access! Als je specifieke hulp nodig hebt bij een stap, laat het weten. 😊
