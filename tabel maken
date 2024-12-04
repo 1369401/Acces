@@ -1,0 +1,65 @@
+1. Open Microsoft Access en maak een nieuwe database
+Open Access en kies Lege database.
+Geef je database een naam, bijvoorbeeld Boekenlijst.accdb, en klik op Maken.
+2. Maak een nieuwe tabel
+Ga naar het tabblad Tabelontwerp:
+Klik op het tabblad Maken en selecteer Tabelontwerp.
+De tabelontwerpmodule opent zich, waarin je de velden en hun eigenschappen kunt definiëren.
+3. Voeg de velden toe
+Voeg elk veld één voor één toe met de specificaties:
+
+Veldnaam	Gegevenstype	Extra eigenschappen
+BoekID	Autowaarde	- Stel Geïndexeerd in op "Ja (geen duplicaten)".
+Titel	Korte tekst	Lengte instellen op 50 tekens (standaard is 255, pas dit aan bij Veldeigenschappen > Veldlengte).
+ISBN	Numeriek	Gebruik Numeriek om ervoor te zorgen dat ISBN-waarden correct worden ingevoerd.
+Auteur	Korte tekst	Lengte instellen op 50 tekens.
+Uitgeverij	Korte tekst	Lengte instellen op 50 tekens.
+Jaartal	Numeriek	Bijvoorbeeld: het jaartal van uitgifte van het boek.
+Prijs (inkoop)	Valuta	Voeg een invoermasker toe: \€ 0.00.
+Aantal	Numeriek	Gebruik Numeriek voor het aantal exemplaren van het boek.
+Link naar boek	Hyperlink	Dit veld slaat de URL naar aanvullende boekinformatie op.
+Afbeelding	OLE-object	Hier kun je afbeeldingsbestanden invoegen (bijvoorbeeld een afbeelding van de kaft).
+4. Stel de veldinhoud en vereisten in
+Voor elk veld kun je de inhoud en vereisten configureren:
+
+BoekID:
+Inhoud: Uniek nummer dat automatisch gegenereerd wordt.
+Vereist: Ja.
+Titel:
+Inhoud: De titel van het boek.
+Vereist: Ja.
+ISBN:
+Inhoud: De ISBN-code (numeriek, bijvoorbeeld 9780306406157).
+Vereist: Ja.
+Auteur:
+Inhoud: De schrijver van het boek.
+Vereist: Nee.
+Uitgeverij:
+Inhoud: De naam van de uitgever.
+Vereist: Nee.
+Jaartal:
+Inhoud: Het jaar waarin het boek is uitgegeven.
+Vereist: Nee.
+Prijs (inkoop):
+Inhoud: De inkoopprijs van het boek.
+Vereist: Ja.
+Aantal:
+Inhoud: Het aantal exemplaren van het boek dat beschikbaar is.
+Vereist: Ja.
+Link naar boek:
+Inhoud: Hyperlink naar extra boekinformatie of de uitgever.
+Vereist: Nee.
+Afbeelding:
+Inhoud: Ingevoegde afbeelding van de kaft.
+Vereist: Nee.
+5. Opslaan en sluiten
+Klik op Opslaan en geef de tabel de naam Boekenlijst.
+Sluit de tabelontwerper.
+6. Tabel vullen
+Open de tabel in Bladweergave.
+Vul een paar voorbeeldrecords in om de functionaliteit te testen:
+Bijvoorbeeld:
+BoekID: 1
+Titel: "De geheimen van Access"
+ISBN: 9781234567890
+Auteur: "Jan
