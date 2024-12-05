@@ -1,0 +1,38 @@
+Om in Access alle namen te vinden die beginnen met “Rob”, ongeacht wat erna staat (bijvoorbeeld achternamen), kun je een jokerteken gebruiken met de LIKE-operator. Jokertekens zorgen ervoor dat je delen van een tekst kunt matchen.
+
+Hier zijn de stappen:
+
+1. Gebruik LIKE met een jokerteken
+
+In het queryontwerpraster kun je dit als criterium gebruiken:
+
+Like "Rob*"
+
+	•	Uitleg:
+	•	Rob betekent dat de tekst begint met “Rob”.
+	•	* betekent dat er willekeurige tekens (inclusief spaties of achternamen) kunnen volgen.
+	•	Dit haalt bijvoorbeeld de volgende records op:
+	•	Rob
+	•	Rob Jansen
+	•	Rob de Vries
+
+2. Zoeknamen die “Rob” ergens bevatten
+
+Als je niet alleen namen wilt die beginnen met “Rob”, maar ook namen waarin “Rob” ergens in de tekst voorkomt (bijvoorbeeld “Jan Robson”), gebruik dan:
+
+Like "*Rob*"
+
+	•	Uitleg:
+	•	*Rob* betekent dat “Rob” in de tekst voorkomt, ongeacht wat ervoor of erna staat.
+
+3. Hoofdlettergevoeligheid
+
+Access is niet hoofdlettergevoelig, dus het criterium werkt voor Rob, rob, of ROB.
+
+4. Combineer met andere criteria
+
+Als je “Rob” als voorwaarde wilt combineren met andere filters, zet je de criteria op dezelfde regel in het raster. Bijvoorbeeld:
+	•	Kolom 1: Like “Rob”*
+	•	Kolom 2: >100 (voor bijvoorbeeld een getalsveld).
+
+Met deze methoden kun je alle records ophalen waar de naam met “Rob” begint of de naam “Rob” bevat. Laat me weten als je meer hulp nodig hebt!
