@@ -1,0 +1,72 @@
+In Microsoft Access kun je queries, rapporten en formulieren maken om gegevens op te halen, weer te geven en te analyseren. Hier zijn de stappen om elk van deze onderdelen te maken:
+
+1. Queries maken
+
+Een query is een vraag aan de database waarmee je gegevens kunt ophalen, filteren of berekenen.
+
+Stappen:
+
+	1.	Ga naar het tabblad “Maken”:
+	•	Klik op Maken > Querywizard of Queryontwerp.
+	2.	Gebruik Querywizard (eenvoudig):
+	•	Kies Wizard Eenvoudige Query.
+	•	Selecteer de tabel of query waaruit je gegevens wilt halen.
+	•	Selecteer de velden die je wilt opnemen in de query.
+	•	Volg de stappen in de wizard en klik op Voltooien.
+	3.	Gebruik Queryontwerp (geavanceerd):
+	•	Klik op Queryontwerp.
+	•	Voeg de gewenste tabellen of queries toe in het ontwerpvenster.
+	•	Sleep de velden die je wilt gebruiken naar het raster onderaan.
+	•	Voeg criteria toe, zoals >100 (voor waarden groter dan 100) of LIKE "*abc*" (voor tekst die “abc” bevat).
+	•	Klik op Weergeven om de resultaten te bekijken.
+	4.	Opslaan:
+	•	Klik op Opslaan en geef je query een naam.
+
+2. Rapporten maken
+
+Rapporten worden gebruikt om gegevens netjes te presenteren, bijvoorbeeld als afdrukbare lijsten of overzichten.
+
+Stappen:
+
+	1.	Ga naar het tabblad “Maken”:
+	•	Klik op Maken > Rapportwizard of Rapport.
+	2.	Gebruik de Rapportwizard (aanbevolen):
+	•	Kies de tabel of query waarop je het rapport wilt baseren.
+	•	Selecteer de velden die je wilt weergeven in het rapport.
+	•	Kies een groepering (bijv. groepeer op categorie).
+	•	Kies een sorteervolgorde (bijv. op naam of datum).
+	•	Volg de wizard-stappen en selecteer een lay-out.
+	•	Klik op Voltooien om het rapport te genereren.
+	3.	Gebruik de optie “Rapport” (snel):
+	•	Selecteer een tabel of query in het navigatievenster.
+	•	Klik op Rapport. Access maakt automatisch een basisrapport.
+	•	Gebruik de Indelingsweergave om het rapport te bewerken (zoals lettertypen, marges of volgorde).
+
+3. Formulieren maken
+
+Formulieren worden gebruikt om gegevens in te voeren, weer te geven of te bewerken.
+
+Stappen:
+
+	1.	Ga naar het tabblad “Maken”:
+	•	Klik op Maken > Formulierwizard, Formulier of Leeg formulier.
+	2.	Gebruik de Formulierwizard (eenvoudig):
+	•	Kies een tabel of query als gegevensbron.
+	•	Selecteer de velden die je in het formulier wilt opnemen.
+	•	Kies een indeling (bijv. kolomvorm of tabbladvorm).
+	•	Klik op Voltooien om het formulier te genereren.
+	3.	Gebruik de optie “Formulier” (snel):
+	•	Selecteer een tabel of query in het navigatievenster.
+	•	Klik op Formulier. Access maakt automatisch een basisformulier.
+	4.	Gebruik “Leeg formulier” (volledig aangepast):
+	•	Klik op Leeg formulier.
+	•	Gebruik de hulpmiddelen in de werkbalk Ontwerpen om knoppen, tekstvakken of andere elementen toe te voegen.
+	•	Koppel elk element aan een veld in een tabel of query.
+
+Tips voor Queries, Rapporten en Formulieren
+
+	•	Voor queries: Combineer meerdere tabellen met relaties of maak berekende velden (bijv. Prijs * Aantal).
+	•	Voor rapporten: Voeg grafieken, totaalberekeningen of filters toe om specifieke gegevens weer te geven.
+	•	Voor formulieren: Voeg knoppen toe om navigatie of acties te automatiseren (bijv. records opslaan of sluiten).
+
+Laat me weten als je meer details wilt over specifieke stappen!
