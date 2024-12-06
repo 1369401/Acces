@@ -1,0 +1,40 @@
+In Microsoft Access kun je een query maken of aanpassen en verwijderen met behulp van de volgende stappen:
+
+1. Query aanmaken
+
+	1.	Open je database in Access.
+	2.	Ga naar het tabblad “Maken” in de menubalk.
+	3.	Klik op “Queryontwerper”.
+	4.	Selecteer de tabellen of queries die je wilt gebruiken en klik op “Toevoegen”.
+	5.	Sleep velden uit de tabellen naar het onderste deel van het ontwerpvenster.
+	6.	Voeg criteria toe (bijvoorbeeld om gegevens te filteren).
+	7.	Sla de query op door op “Opslaan” te klikken en een naam te geven.
+
+2. Query aanpassen
+
+	1.	Ga naar het tabblad “Query’s” in het navigatievenster.
+	2.	Klik met de rechtermuisknop op de query die je wilt wijzigen.
+	3.	Kies “Ontwerpweergave”.
+	4.	Pas de velden, criteria of de querystructuur aan.
+	5.	Sla de wijzigingen op door op “Opslaan” te klikken.
+
+3. Query verwijderen
+
+	1.	Ga naar het tabblad “Query’s” in het navigatievenster.
+	2.	Klik met de rechtermuisknop op de query die je wilt verwijderen.
+	3.	Kies “Verwijderen”.
+	4.	Bevestig de actie.
+
+Tips voor het aanpassen van een query
+
+	•	Als je een verwijderquery wilt maken (om records te verwijderen):
+	1.	Open de Queryontwerper.
+	2.	Voeg de tabel toe waarin je gegevens wilt verwijderen.
+	3.	Ga naar het tabblad “Ontwerp”.
+	4.	Klik op “Verwijderquery”. Dit verandert de query in een verwijderquery.
+	5.	Voeg criteria toe om specifieke records te verwijderen.
+	6.	Voer de query uit door op “Uitvoeren” te klikken.
+
+	Let op: Bij een verwijderquery worden de gegevens permanent verwijderd. Zorg ervoor dat je een back-up maakt voordat je de query uitvoert.
+
+Heb je specifieke hulp nodig bij een query, zoals hoe je criteria instelt? Laat het me weten!
